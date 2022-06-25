@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Open+Sans&family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #111;
+}
+
+.nav {
+    display: flex;
+    height: 70px;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgb(181, 179, 179);
+}
+
+.items {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    color: #111;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.items>img {
+    height: 20px;
+    position: relative;
+    top: -3px;
+    cursor: pointer;
+}
+
+.item>a {
+    margin-left: 30px;
+    font-weight: 550;
+    font-size: 17px;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+.item>a:hover {
+    border-bottom: 3px solid black;
+    padding-bottom: 25px;
+}
+
+.right {
+    align-self: center;
+    justify-items: flex-end;
+    margin-left: auto;
+}
+
+.right button {
+    margin-right: 10px;
+    width: 100px;
+    height: 35px;
+    position: relative;
+    top: -8px;
+    border-radius: 50px;
+    border: transparent;
+    background-color: rgb(226, 224, 224);
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.right img {
+    height: 45px;
+    margin: 0 30px;
+    position: relative;
+    top: 9px;
+    cursor: pointer;
+}
+
+.right>.signup {
+    background-color: blue;
+    color: white;
+}
+
+.hero_first {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.first {
+    border: 1px solid grey;
+    border-radius: 60px;
+    width: 98%;
+    height: 60%;
+    align-self: center;
+    margin: 0 5px;
+    display: flex;
+}
+
+#search {
+    border: 2px solid;
+    border: transparent;
+    margin-left: 40px;
+    width: 60%;
+    font-size: 20px;
+    border-right: 1px solid grey;
+    color: rgb(0, 0, 0);
+}
+
+#buttons {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    align-self: center;
+    margin-left: 23px;
+    color: rgb(53, 53, 53);
+}
+
+#button:hover {
+    transition: 0.5s;
+    border: 1px solid #111;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #111;
+    color: whitesmoke;
+}
+
+.hero_second {
+    border-bottom: 1px solid rgb(226, 226, 226);
+    height: 80px;
+    display: flex;
+    position: relative;
+    top: -20px;
+}
+
+#hero_second_buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero_second_button {
+    list-style: none;
+    margin-left: 10px;
+    border: 2px solid rgb(226, 226, 226);
+    padding: 6px 20px;
+    border-radius: 5px;
+    color: #3a3a3a;
+}
+
+.hero_third {
+    height: 700px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container {
+    height: 1500px;
+    width: 100%;
+    margin: 0px 15px;
+    display: grid;
+    grid-template-rows: repeat(4, 350px);
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.grid {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.grid>h4 {
+    margin-top: 3px;
+    font-weight: 100;
+    margin-left: 2px;
+}
+
+.grid>p {
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3a3a3a;
+    margin-top: 1px;
+    margin-left: 2px;
+    margin-bottom: 20px;
+}
+
+.image {
+    height: 90%;
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.image>img {
+    max-width: 130%;
+    align-self: center;
+}
+
+.image>img:hover {
+    max-width: 140%;
+    transition: 0.75s;
+}
